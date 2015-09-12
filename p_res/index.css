@@ -1,0 +1,75 @@
+body {
+	font-family: "Arial","Microsoft YaHei","üK‘Ì","‘v‘Ì",sans-serif;
+	background-color:#2E3138;
+}
+
+.contentContainer {
+	width:100%;
+	margin:0px 0px 0px 0px;
+}
+
+.indexBanner {
+	background:url(http://offer-assets.b0.upaiyun.com/assets/index/banner-4d0efbf7faf19060c357a02b30ed99bd.jpg) top right no-repeat;
+	height:700px;
+}
+
+.mgpd0 {
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+.headerOpacity5 {
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity:0.5;
+}
+
+.headerOpacity8 {
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	opacity:0.8;
+}
+
+
+.indexBannerText {
+	text-align:center;
+	padding-top:280px;
+	color:white;
+	font-size:39pt;
+}
+
+.thumbnail img{
+	margin-top:20px;
+}
+
+.thumbnail h3{
+	font-size:25pt;
+	text-align:center;
+}
+
+.thumbnail .caption{
+	text-align:center;
+}
+
+#about .caption{
+	text-align:center;
+}
+
+.footer {
+ 	min-height: 90px;
+ 	padding-top:20px;
+ 	text-align:center;
+ 	color:white;
+}
+
+.btn-default {
+	background:#44988F;
+}
+
+.btn-default:hover{
+	background:#55A9AF;
+}
+
+.btn-default:active {
+	background:#44988F;
+}

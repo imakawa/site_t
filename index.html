@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd";>
+<html>
+  <head> 
+    <title>Tymitec.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <script>
+if (navigator.userLanguage) {
+    baseLang = navigator.userLanguage.substring(0,2).toLowerCase();
+} else {
+    baseLang = navigator.language.substring(0,2).toLowerCase();
+}
+ 
+switch(baseLang)
+{
+    case "en":
+        window.location.href="index_en.html";
+        break;
+    case "ja":
+        window.location.href="index_jp.html";
+        break;
+    case "zh":
+        window.location.href="index_zh.html";
+        break;
+    default:
+        window.location.href="index_en.html";
+}
+    </script>
+  </body>
+</html>
